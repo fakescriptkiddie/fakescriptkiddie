@@ -1,0 +1,58 @@
+{
+    "workbench.sideBar.location": "right",
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "vscode-icons",
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderLineHighlight": "line",
+    "editor.fontLigatures": true,
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders": false,
+    "editor.semanticHighlighting.enabled": true,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.location": "top",
+    "workbench.statusBar.visible": false,
+    "window.titleBarStyle": "custom",
+    "editor.wordWrap": "on",
+    "editor.scrollbar.horizontal": "hidden",
+    "apc.electron": {
+        "titleBarStyle": "hidden",
+        "frame": true
+    },
+    "apc.header": {
+        "height": 36
+    },
+    "apc.listRow": {
+        "height": 24
+    },
+    //"apc.font.family": "Inter",
+    "apc.stylesheet": {
+        ".title-label > h2": "display: none;",
+        ".editor-actions": "display: none;",
+        ".split-view-view:first-child .pane-header": "display: none !important;",
+        ".monaco-list-row": "border-radius: 4px;",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display:none;",
+    },
+    "workbench.layoutControl.enabled": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb"
+    },
+    "window.customTitleBarVisibility": "auto",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "window.menuBarVisibility": "toggle",
+    "editor.maxTokenizationLineLength": 120,
+    "workbench.colorCustomizations": {},
+    "window.commandCenter": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.colorTheme": "Just Black"
+}
