@@ -53,6 +53,6 @@
     "editor.maxTokenizationLineLength": 120,
     "workbench.colorCustomizations": {},
     "window.commandCenter": false,
-    "vsicons.dontShowNewVersionMessage": true,
+    "vsicons.dontShowNewVersionMessage": false,
     "workbench.colorTheme": "Just Black"
 }
